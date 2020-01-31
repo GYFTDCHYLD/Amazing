@@ -28,15 +28,11 @@ public class Main {
 		public static void runCode(MathLib library) {
 /* #1 */	System.out.println("GCD ("+x+","+y+") = "+library.gcd(x,y));
 	
-/*	        
- */
-/* #2 *///	if(x < 3)
-				System.out.println("Ack ("+x+","+y+") = "+ library.ack(x, y));
-		//	else
-		//		System.out.println("Ack ("+x+","+y+")?,  Yuh  kidding right!!!");
 
-/* #3 */	
-			System.out.print("Fibonacci (" + x + ") numbers Series \n");
+/* #2 */	System.out.println("Ack ("+x+","+y+") = "+ library.ack(x, y));
+		
+
+/* #3 */	System.out.print("Fibonacci (" + x + ") numbers Series \n");
 		 	for(int i = 0; i < x; i++){
 		 		System.out.println(library.fib(i));
 		 	}
