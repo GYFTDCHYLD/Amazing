@@ -20,11 +20,11 @@ public class IterationMathLib extends MathLib {
 		
 		
 		for(int i = 0; i <= y; i++) {
-			if(x < 2) {			// (x+y) + (1)
+			if(x < 2) {			
 				return x+y+1;
-			}else if (x == 2){ 	// (x*y) + (x+1)
+			}else if (x == 2){ 	
 				return x*y+x+1; 
-			}else if (x > 2){ 	// (2 to the x+y) -3
+			}else if (x > 2){ 	
 				int n = 2;
 				for(int j=1; j<x+y; j++) {
 					n*=2;
